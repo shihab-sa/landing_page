@@ -1,13 +1,20 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+// import Image from "next/image";
 
 export default function Navbar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   return (
-    <nav className="bg-white shadow-md p-4 flex justify-between items-center">
+    <nav className="p-4 flex justify-between items-center">
       <Link href="/" className="text-xl font-bold">
-        Logo
+        {/* <Image
+          src="/public/icons/icons/ChevronRight.svg"
+          alt="Logo"
+          width={150}
+          height={150}
+        /> */}
+        AKTECH
       </Link>
       <div className="flex items-center gap-6">
         <div className="relative">

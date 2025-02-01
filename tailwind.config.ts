@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customBlue: "#1f80d8", // Add your custom color here
+        customDarkBlue: "#002045",
+        customTeal: "#00d6c1",
+        pipes: "#103a6a",
       },
     },
   },
